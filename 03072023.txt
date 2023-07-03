@@ -1,0 +1,31 @@
+num=int(input("enter a number:"))
+
+if num%2==0:
+   
+ print("given number is even")
+
+else: 
+  
+      print("given number is odd")
+output:
+enter a number:8
+
+given number is even
+-----------------------------------------------------------------------------------------
+a=int(input())
+
+b=int(input())
+
+c=int(input())
+
+if(a>b and a>c):
+
+    print("a is greater")
+
+elif (b>c):
+ 
+   print("b is greater")
+
+else:
+
+    print("c is greater")
