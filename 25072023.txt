@@ -9,4 +9,4 @@ for i in n:
     for i in s2:
         res.append(i)
 print(res)
-output:['1', '2', '4']
+output:[1, 2, 4]
