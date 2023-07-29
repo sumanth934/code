@@ -1,0 +1,51 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNbSW5MhKoJPnQ6KYlnwPRZ"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4C-bZdIQZGFh",
+        "outputId": "5796e4d5-f2f6-49f5-f346-236f9e2d855d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter range:10\n",
+            "0 1 1 2 3 5 8 13 21 34 "
+          ]
+        }
+      ],
+      "source": [
+        "n=int(input(\"enter range:\"))\n",
+        "n1=0\n",
+        "n2=1\n",
+        "print(n1,n2,end=\" \")\n",
+        "for i in range(2,n):\n",
+        "  n3=n1+n2\n",
+        "  n1=n2\n",
+        "  n2=n3\n",
+        "  print(n3,end=\" \")"
+      ]
+    }
+  ]
+}
