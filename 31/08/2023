@@ -1,0 +1,98 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMiKY86/xaxWZCUp9GmnDLz"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 46,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cZ8m8TCnAxlP",
+        "outputId": "60611a4a-10f2-474d-d016-d2ee1acc1687"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n"
+          ]
+        }
+      ],
+      "source": [
+        "n=802400\n",
+        "n1=str(n)\n",
+        "n1=n1[::-1]\n",
+        "c=0\n",
+        "for i in n1:\n",
+        "   if i=='0':\n",
+        "      c+=1\n",
+        "   else:\n",
+        "      break\n",
+        "print(c)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=20\n",
+        "b=15\n",
+        "l1=[]\n",
+        "l2=[]\n",
+        "for i in range(1,a+1):\n",
+        "   if a%i==0:\n",
+        "     l1.append(i)\n",
+        "for i in range(1,b+1):\n",
+        "   if b%i==0:\n",
+        "     l2.append(i)\n",
+        "k=max(l1,l2)\n",
+        "print(k)\n",
+        "print(a*b/l3)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 227
+        },
+        "id": "-Y0wx_03CCjl",
+        "outputId": "d89a38cc-38c7-4f52-f612-2c6dc1bc3272"
+      },
+      "execution_count": 62,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 3, 5, 15]\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-62-0a14618f2c12>\u001b[0m in \u001b[0;36m<cell line: 13>\u001b[0;34m()\u001b[0m\n\u001b[1;32m     11\u001b[0m \u001b[0mk\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mmax\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0ml1\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0ml2\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     12\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mk\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 13\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0ma\u001b[0m\u001b[0;34m*\u001b[0m\u001b[0mb\u001b[0m\u001b[0;34m/\u001b[0m\u001b[0ml3\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m: name 'l3' is not defined"
+          ]
+        }
+      ]
+    }
+  ]
+}
