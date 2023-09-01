@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN1lD669Vtjweh5JH1YgMiW"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 31,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dH3mmtybATLp",
+        "outputId": "b7cd1bb5-511f-4d87-a58d-e341d3ed9e3e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n"
+          ]
+        }
+      ],
+      "source": [
+        "def lonelynumber(n):\n",
+        "  s=[]\n",
+        "  for i in n:\n",
+        "    v=n.count(i)\n",
+        "    if v<2:\n",
+        "      s.append(i)\n",
+        "  print(s[0])\n",
+        "lonelynumber((1,2,2,4,5,4,1))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "X74ZqS6YB3gT"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
